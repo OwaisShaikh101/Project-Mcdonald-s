@@ -9,3 +9,15 @@
   width: 100%; /* Adjust width as needed */
   
 }
+
+.fixed-top {
+  position: fixed;
+  margin-top: 0;
+  padding-top: 0;
+ 
+}
+
+
+
+
+
