@@ -10,115 +10,116 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 
+    <style>
+      .fixed-top {
+  position: fixed;
+  margin-top: 0;
+  padding-top: 0;
+ 
+}
+    </style>
 </head>
 <body>
     <!-- nav bar -->
 
-    <nav class="navbar navbar-expand-lg bg-none  ">
-
-      <div class="container">
-        
-          <img src="images/McDeliveryLogo.png" height="70" width="70">
-          &nbsp;
-          &nbsp;
-          <a class="navbar-brand text-primary-emphasis fs-4" href="#">Mc Donalds</a>
-          <button class="navbar-toggler text-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-          </button>
-
-          <div class="collapse navbar-collapse" id="navbarNav">
-              <ul class="navbar-nav">
-                <li class="nav-item bg-white ps-3 pe-3 text-center m-2 ">
-                  <a class="nav-link active text-primary-emphasis  " href="index.html">Home</a>
-                </li>
-                <li class="nav-item bg-white ps-3 pe-3 text-center m-2 ">
-                  <a class="nav-link active text-primary-emphasis  " href="meal.html">
-                      Meals</a>
-                </li>
-                <li class="nav-item bg-white  ps-3 pe-3 text-center m-2">
-                  <a class="nav-link active text-primary-emphasis" href="Fries & Sides.html">
-                      Fries & Sides</a>
-                </li>
-                
-                  <!-- Dropdown -->
-
-<div class="nav-item dropdown">
-<a class="btn dropdown-toggle bg-white pt-lg-3  ps-3 pe-3 text-center text-primary-emphasis nav-link" data-bs-toggle="dropdown" aria-expanded="false">Burger & Wraps</a>
-<ul class="dropdown-menu" style="margin-top: -5px;">
-  <li><a class="dropdown-item text-primary " href="Burger.html">Burger</a></li>
-  <li><a class="dropdown-item text-primary " href="wraps.html">Wraps</a></li>
-  <li><a class="dropdown-item text-primary " href="wraps.html">Coke & Freis</a></li>
-</ul>
-</div>
-
-
-
-<!-- <li class="nav-item bg-white ps-3 pe-3 text-center m-2 ">
-<a class="nav-link active text-primary-emphasis" href="map.html"> Map</a>
-</li> -->
-
-<li class="nav-item bg-white ps-3 pe-3 text-center m-2 ">
-                  <a class="nav-link active text-primary-emphasis" href="Contact Us.html"> Contact Us</a>
-                </li>
-                &nbsp;
-                &nbsp;
-                &nbsp;
-                &nbsp;
-                &nbsp;
-                &nbsp;
-                <li class="nav-item fs-1" data-bs-toggle="modal" data-bs-target="#login">
-                  &nbsp;
-                  <i class="bi bi-person-circle"></i>
-                  </a>
-                </li>
-</ul>
-</div>
-</div>
-
-<!-- modal logi -->
-<div class="modal" id="login">
-
- 
-      <div class="modal-dialog modal-dialog-centered">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h1 class="modal-title">login</h1>
-            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-          </div>
-          <div class="modal-body">
-           
-            <form>
-
-              <div class="mb-2">
-
-                <label class="form-label">Email</label>
-                <input type="email" class="form-control" placeholder="joy@p4n.in"/>
-              </div>
-
-              <div class="mb-2">
-
-                <label class="form-label">Password</label>
-                <input type="password" class="form-control" placeholder="!@@#%$#%$#%$@sdfsfg"/>
-              </div>
-
-            </form>
-
-
-        </div>
-
-
-        <div class="modal-footer">
-         
-          <button type="button" class="btn btn-primary">Login</button>
-        </div>
-
-      </div>
-
-    </div>
-
+    <header>
+      
+      <nav class="navbar navbar-expand-lg bg-white    fixed-top  ">
+          <div class="container">
+            &nbsp;
+              &nbsp;
+              &nbsp;
+              &nbsp;
+              <img src="images/McDeliveryLogo.png" height="70" width="70">
+             
+              
+              <a class="navbar-brand text-primary-emphasis mt-0 pt-0   fs-4" href="#">Mc Donalds</a>
+              <button class="navbar-toggler text-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+              </button>
+  
+              <div class="collapse navbar-collapse" id="navbarNav">
+                  <ul class="navbar-nav">
+                    <li class="nav-item bg-white ps-3 pe-3 text-center m-2 ">
+                      <a class="nav-link active text-primary-emphasis  " href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item bg-white ps-3 pe-3 text-center m-2 ">
+                      <a class="nav-link active text-primary-emphasis  " href="meal.html">
+                          Meals</a>
+                    </li>
+                    <li class="nav-item bg-white  ps-3 pe-3 text-center m-2">
+                      <a class="nav-link active text-primary-emphasis" href="Fries & Sides.html">
+                          Fries & Sides</a>
+                    </li>
+                    
+                      <!-- Dropdown -->
+  
+  <div class="nav-item dropdown">
+    <a class="btn dropdown-toggle bg-white pt-lg-3  ps-3 pe-3 text-center text-primary-emphasis nav-link" data-bs-toggle="dropdown" aria-expanded="false">Burger & Wraps</a>
+    <ul class="dropdown-menu" style="margin-top: -5px;">
+      <li><a class="dropdown-item text-primary " href="Burger.html">Burger</a></li>
+      <li><a class="dropdown-item text-primary " href="wraps.html">Wraps</a></li>
+      <li><a class="dropdown-item text-primary " href="coke & cokies.html">Coke & Freis</a></li>
+    </ul>
   </div>
-</nav>
-</div>
+   <li class="nav-item bg-white ps-3 pe-3 text-center m-2 ">
+                      <a class="nav-link active text-primary-emphasis" href="Contact Us.html"> Contact Us</a>
+   </li>
+   &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;
+   
+                    <li class="nav-item fs-1" data-bs-toggle="modal" data-bs-target="#login">
+                      
+                      <i class="bi bi-person-circle"></i>
+                      </a>
+                    </li>
+                        </ul>
+                         </div>
+                          </div>
+  
+                          
+                          
+  <!-- modal logi -->
+  <div class="modal" id="login">
+  
+     
+          <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title">login</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+               
+                <form>
+  
+                  <div class="mb-2">
+  
+                    <label class="form-label">Email</label>
+                    <input type="email" class="form-control" placeholder="joy@p4n.in"/>
+                  </div>
+  
+                  <div class="mb-2">
+  
+                    <label class="form-label">Password</label>
+                    <input type="password" class="form-control" placeholder="!@@#%$#%$#%$@sdfsfg"/>
+                  </div>
+  
+                </form>
+  
+  
+            </div>
+  
+  
+            <div class="modal-footer">
+             
+              <button type="button" class="btn btn-primary">Login</button>
+            </div>
+          </div>
+        </div>
+      </div> 
+  </nav>
+  </header>
+
 
 <!-- <div class="container-fluid  ">
 
@@ -126,7 +127,7 @@
     width="1350" height="370"> 
 </div> -->
 
-<div class="container-fluid mt-5 mb-0 pt-0">
+<div class="container-fluid mt-5 mb-0 pt-5">
   <!-- <h1 class="text-center mb-3"> About Us </h1> -->
   <h1 class="text-center mb-5 mt-1 pt-1"><span class="text-info-emphasis "> About Us</span></h1>
     <p class="text-center fs-7">

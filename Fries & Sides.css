@@ -4,3 +4,9 @@
    /* .btn{
     width: 200px;
    } */
+   .fixed-top {
+    position: fixed;
+    margin-top: 0;
+    padding-top: 0;
+   
+  }
