@@ -34,7 +34,7 @@ filter: brightness(70%);
 
   <header>
       
-    <nav class="navbar navbar-expand-lg bg-white    fixed-top  ">
+    <nav class="navbar navbar-expand-lg bg-white fixed-top  ">
         <div class="container">
           &nbsp;
             &nbsp;
@@ -73,15 +73,15 @@ filter: brightness(70%);
   </ul>
 </div>
  <li class="nav-item bg-white ps-3 pe-3 text-center m-2 ">
-                    <a class="nav-link active text-primary-emphasis" href="Contact Us.html"> Contact Us</a>
+ <a class="nav-link active text-primary-emphasis" href="Contact Us.html"> Contact Us</a>
  </li>
  &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;
  
-                  <li class="nav-item fs-1" data-bs-toggle="modal" data-bs-target="#login">
-                    
-                    <i class="bi bi-person-circle"></i>
-                    </a>
-                  </li>
+ <li class="nav-item fs-1">
+  <a href="#" class="nav-link" data-bs-toggle="modal" data-bs-target="#loginModal">
+    <i class="bi bi-person-circle"></i>
+  </a>
+</li>
                       </ul>
                        </div>
                         </div>
@@ -89,44 +89,33 @@ filter: brightness(70%);
                         
                         
 <!-- modal logi -->
-<div class="modal" id="login">
 
-   
-        <div class="modal-dialog modal-dialog-centered">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h1 class="modal-title">login</h1>
-              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-             
-              <form>
-
-                <div class="mb-2">
-
-                  <label class="form-label">Email</label>
-                  <input type="email" class="form-control" placeholder="joy@p4n.in"/>
-                </div>
-
-                <div class="mb-2">
-
-                  <label class="form-label">Password</label>
-                  <input type="password" class="form-control" placeholder="!@@#%$#%$#%$@sdfsfg"/>
-                </div>
-
-              </form>
-
-
-          </div>
-
-
-          <div class="modal-footer">
-           
-            <button type="button" class="btn btn-primary">Login</button>
-          </div>
-        </div>
+<div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="loginModalLabel">Login</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
-    </div> 
+      <div class="modal-body">
+        <form>
+          <div class="mb-3">
+            <label for="email" class="col-form-label">Email:</label>
+            <input type="email" class="form-control" id="email" placeholder="Enter your email">
+          </div>
+          <div class="mb-3">
+            <label for="password" class="col-form-label">Password:</label>
+            <input type="password" class="form-control" id="password" placeholder="Enter your password">
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Login</button>
+      </div>
+    </div>
+  </div>
+</div>
 </nav>
 </header>
 
